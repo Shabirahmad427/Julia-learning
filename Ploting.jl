@@ -18,7 +18,7 @@ plot!(water_gromacs_0_5.d,water_gromacs_0_5.kb,label="gromacs_water 0.5")
 
 water_amber_1 = ComplexMixtures.load("../analyses/results-sucrose_1.0M.json")
 plot!(water_amber_1.d,water_amber_1.kb,label="amber_water 1.0")
-water_gromacs = ComplexMixtures.load("../../proj_GH27/analyses/results-sucrose_1.0M.json")
+water_gromacs_1 = ComplexMixtures.load("../../proj_GH27/analyses/results-sucrose_1.0M.json")
 plot!(water_gromacs_1.d,water_gromacs_1.kb,label="gromacs_water 1.0")
 
 
